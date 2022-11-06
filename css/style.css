@@ -1,0 +1,53 @@
+@import url(resret.css);
+.container {
+	width: 1200px;
+	margin: 0 auto;
+    text-align: center;
+    background-color: deeppink;
+}
+
+.parent {
+        font-size: 0;
+background-color: black;
+}
+.child {
+	background: rgb(255, 255, 255);
+    vertical-align: top;
+	display: inline-block;
+	width: 300px;
+	font-size: 20px;
+    overflow-x:hidden;
+background-color: brown;
+border: 1px solid rgb(0, 0, 0);
+
+}
+.parent .child {
+    width: 400px;
+    height: 400px;
+}
+.img-menu {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {font-size: 25px;
+}
+button {
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+   margin-top: 25px;
+}
